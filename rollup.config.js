@@ -1,4 +1,6 @@
 import typescript from "@rollup/plugin-typescript";
+import commonjs from "@rollup/plugin-commonjs";
+import scss from "rollup-plugin-scss"
 import pkg from './package.json';
 
 export default {
@@ -18,6 +20,8 @@ export default {
         }
     ],
     plugins: [
-        typescript()
+        typescript(),
+        commonjs(),
+        scss()
     ]
 }

@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 900px;
+
+    .col {
+        flex: 1;
+
+        .simple-table-container {
+            overflow: auto;
+            height: 150px;
+        }
+
+        .inner-scroll-table-container {
+            height: 150px;
+        }
+    }
+}
+
+table {
+    th, td {
+        border: 1px solid
+    }
+}

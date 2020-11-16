@@ -10,11 +10,12 @@
   },
   "author": "Kirill Dvoryakov (delphin92)",
   "license": "MIT",
+  "alias": {
+    "react": "../node_modules/react",
+    "react-dom": "../node_modules/react-dom/profiling"
+  },
   "dependencies": {
     "parcel": "^1.12.4",
-    "react": "^17.0.1",
-    "react-app-polyfill": "^2.0.0",
-    "react-dom": "^17.0.1",
     "react-inner-scroll-table": "file:.."
   }
 }
