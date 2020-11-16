@@ -18,6 +18,12 @@
 
 table {
     th, td {
-        border: 1px solid
+        border: 2px solid;
+        padding: 4px;
     }
+}
+
+.inner-scroll-table .table-header {
+    border: 2px solid;
+    padding: 4px;
 }

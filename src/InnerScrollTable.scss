@@ -1,4 +1,4 @@
-.scrollable-table {
+.inner-scroll-table {
     height: 100%;
     flex-grow: 1;
     position: relative;
@@ -14,19 +14,24 @@
             height: 100%;
             overflow-y: auto;
 
-            thead > tr {
-                height: 0;
+            thead {
+                //border-spacing: 0;
 
-                th {
-                    border: none;
+                & > tr {
+                    height: 0;
 
-                    .table-header-hidden {
-                        height: 0;
-                        overflow: hidden;
-                    }
+                    th {
+                        border: none;
+                        padding: 0;
 
-                    .table-header {
-                        position: absolute;
+                        .table-header-hidden {
+                            height: 0;
+                            overflow: hidden;
+                        }
+
+                        .table-header {
+                            position: absolute;
+                        }
                     }
                 }
             }

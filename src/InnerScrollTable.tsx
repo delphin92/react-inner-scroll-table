@@ -34,7 +34,7 @@ const InnerScrollTable: React.FC<InnerScrollTableProps> = ({children, wrapperCla
     });
 
     return (
-        <div className={classNames('scrollable-table', wrapperClassName)}>
+        <div className={classNames('inner-scroll-table', wrapperClassName)}>
             <div style={{top: headerHeight}} className={classNames('scroll-wrapper', scrollWrapperClassName)}>
                 <div className="scroll">
                     <InnerScrollTableContext.Provider value={headerHeight}>
